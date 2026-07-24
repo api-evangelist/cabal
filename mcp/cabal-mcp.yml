@@ -1,0 +1,17 @@
+generated: '2026-07-18'
+method: searched
+status: published
+source: https://getcabal.com/   # og:description advertises Claude + ChatGPT via MCP
+server:
+  name: cabal
+  transport: http
+  url: null            # connection URL is not published on the public marketing site;
+                       # the MCP integration is enabled in-app for authenticated accounts
+description: >-
+  Cabal publicly advertises a Model Context Protocol (MCP) integration as one of
+  its access channels: "Query through chat, Claude, ChatGPT, Slack, or API."
+  Agents (Claude, ChatGPT) can query Cabal's relationship-intelligence graph
+  ("who's connected to anyone") over MCP. The concrete MCP endpoint URL, transport,
+  and tool list are provisioned in-app for authenticated users and are not
+  published on the public site, so no tool schema is captured here (no fabrication).
+tools: []   # not publicly documented; would require the account-scoped MCP manifest
